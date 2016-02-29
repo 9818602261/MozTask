@@ -1,0 +1,132 @@
+@charset"utf-8";
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	
+	width:1150px;
+	height:900px;
+	background-color:FAEBD7;
+	
+}
+#head h1{
+
+	font-style: italic;
+	font-family: 50px;
+    font-size:55px;
+    background-color:rgb(220,20,60);
+    position: fixed;
+    width: 100%;
+    margin-top: 0px;
+    color:#008080;
+}
+
+#sub{
+	  margin-top:36px;
+	  font-size:20px;
+	  margin-left:395px;
+	 position:fixed;
+	 text-decoration:none;
+	 width:-12px;
+	  
+}
+#sub a{
+	text-decoration: none;
+	padding: 0px 10px;
+	color:white;
+}
+#sub :hover{
+	color:#8B0000;
+}
+@media only screen and (max-width: 980px)
+{
+	#head h1
+	{
+		background-color: green;
+	}
+}
+
+@media screen and (max-width: 300px)
+	
+	{
+	#head h1{
+		width:100%;
+	}
+	right{
+		width:100%;
+	}
+	#center{
+		width:100%;
+	}
+}
+
+
+#right{
+	
+	
+	float:right;
+	width:560px;
+	height:1800px;
+	background-color:;
+	
+	margin-right:-340px;
+	margin-left:955px;
+	font-size:35px;
+	font-style:italic;
+	margin-top:100px;
+	color:8B0000;
+}
+#center{
+	
+	
+	
+	margin-top:100px;
+	margin-right:405px;
+	margin-left:25px;
+	background-color:black;
+	height:500px;
+	
+	position:fixed;
+	
+	
+
+}
+#img1{
+	margin-left:0px;
+}
+
+
+
+#h3{
+	color:black;
+	font-size:30px;
+	text-decoration:none;
+}
+
+
+#h4{
+	color:black;
+	font-size:30px;
+	text-decoration:none;
+}
+
+#h5{
+	color:black;
+	font-size:30px;
+	text-decoration:none;
+}
+
+#h6{
+	color:black;
+	font-size:30px;
+	text-decoration:none;
+}
+
+
+
+
+
+
+
+
